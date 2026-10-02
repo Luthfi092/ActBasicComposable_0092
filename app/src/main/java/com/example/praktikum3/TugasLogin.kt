@@ -31,7 +31,29 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Spacer(modifier = Modifier.height(50.dp))
 
+            Text(
+                text = "Login",
+                color = Color.White,
+                fontSize = 34.sp,
+                fontWeight = FontWeight.ExtraBold
+            )
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
 
