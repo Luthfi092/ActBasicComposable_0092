@@ -21,6 +21,18 @@ import com.example.praktikum3.R
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
 
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = "Background",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+
+    }
 }
 
 
