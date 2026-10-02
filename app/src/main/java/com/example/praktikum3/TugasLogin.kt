@@ -67,6 +67,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "Luthfi Al Qorni Darmawijaya",
+                color = Color.White,
+                fontSize = 27.sp,
+                fontWeight = FontWeight.Bold
+            )
 
 
 
