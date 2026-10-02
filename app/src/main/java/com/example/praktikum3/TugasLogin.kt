@@ -58,6 +58,8 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
 
+            Spacer(modifier = Modifier.height(60.dp))
+
 
 
 
